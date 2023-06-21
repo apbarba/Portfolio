@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'prueba1';
+    src: url('../../fonts/prueba1.ttf') format('ttf');
+}
+
+
+.avatar img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+mat-toolbar {
+    height: 100px;
+    background-color: beige;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+    margin: 5px;
+  }
+
+.gmail{
+    margin-left: 15px;
+}
+
+h1{
+    font-family: 'prueba1', sans-serif;
+}
+
+.button-style {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #e88bff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .button-style:hover {
+    background-color: #d871ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
